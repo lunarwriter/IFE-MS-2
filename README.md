@@ -4,7 +4,7 @@
 
 <a href = "" rel="nofollow"> View the live project here</a>
 
-This is the website for Merlin's Beard! An interactive quiz page where people who are enthousiastic about the British franchise and wizarding world of Harry Potter. 
+This is the website for Merlin's Beard! An interactive memory game for those who are fervent Harry Potter enthousiasts and are familiar with the wand movements.
 
 
 
