@@ -2,7 +2,7 @@
 
 ## Code Institute Milestone Project 2
 
-<a href = "" rel="nofollow"> View the live project here</a>
+<a href = "https://lunarwriter.github.io/IFE-MS-2/" rel="nofollow"> View the live project here</a>
 
 This is the website for Merlin's Beard! An interactive memory game for those who are fervent Harry Potter enthousiasts and are familiar with the wand movements.
 
