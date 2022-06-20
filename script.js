@@ -11,24 +11,34 @@ function flipCards() {
         // first click on the cards
         flippedCard = true;
         firstCard = this;
-    } else {
-        // second click
-        flippedCard = false;
-        secondCard = this;
 
-        // do the cards match?
-        if (firstCard.dataset.framework === secondCard.dataset.framework) {
-            // matching!
-            firstCard.removeEventListener('click', flipCards);
-            secondCard.removeEventListener('click', flipCards);
-        } else {
-            // not a match
-            setTimeout(() => {
-            firstCard.classList.remove('flip');
-            secondCard.classList.remove('flip');
-            }, 1500);
-        }
-    }
+        return;
+    } 
+    // second click
+    flippedCard = false;
+    secondCard = this;
+
+    checkMatch();
+}
+
+function checkMatch() {
+     // do the cards match?
+     let match = firstCard.dataset.framework === secondCard.dataset.framework;
+
+    // ternary operator notation
+     match ? disableCards() : unflipCards();
+}
+
+function disableCards() {
+    firstCard.removeEventListener('click', flipCards);
+    secondCard.removeEventListener('click', flipCards);
+}
+
+function unflipCards() {
+    setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+        }, 1500);
 }
 
 cards.forEach(card => card.addEventListener('click', flipCards));
