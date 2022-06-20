@@ -90,15 +90,67 @@ __Existing Features__
 
 <br>
 
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+* [W3C Markup Validator](https://validator.w3.org/ "markup-validator") - [Results](https://validator.w3.org/nu/#textarea "markup-validator-results")
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "css-validator") - [Results](https://jigsaw.w3.org/css-validator/validator "css-validator-results")
+
+<br>
+
+### Devices and Screen Sizes
+
+The website was extensively tested to make sure every aspect became responsive to the screen size of the devices.
+The browsers that were used for testing are: Microsoft Edge, Google Chrome and Mozilla Firefox.
+To test the website on different devices and different screen sized, the Chrome DevTools was used.
+
+* Laptop with HiDPI screen: 1440x900
+* iPad: 768x1024
+* iPhone 6/7/8 Plus iOS 11: 414x736
+
+<br>
+
+__Testing User Stories from User Experience (UX) Section__
+
+* __First Time Visitor Goals__
+
+    1. As a Player, I want to be able to understand immediately what kind of game I will play.
+
+        * When the player opens the link, they will immediately be brought to the home screen which is the game screen. Upon reading the title, they will notice they will play a memory card game.
+    
+    2. As a Player, I want to know how many moves and how long I played before finishing the game.
+
+        * Underneath the title, the player can see a section with "Moves:.." and a clock which indicate the amount of moves the player has made as well as the time it takes to finish the game.
+
+    <br>
+
+    <h2 align="center">
+    <img src="docs/screenshots/Title.png" alt="title" style="max-width:100%;">
+    </h2>
+    
+    3. As a Player, I want to be able to play the game again.
+
+        * Once the player finishes the game, they will receive a feedback message stating their victory. Once the player clicks on the "OK" button, they will be redirected to the home screen. On the top right corner is a button with a refresh icon. If the player clicks on that button, the game will automatically restart and they can play once more.
+    
+    <br>
+
+    <h2 align="center">
+    <img src="docs/screenshots/game-win.png" alt="game-win" style="max-width:100%;">
+    </h2>
+   
+<br>
+
 ## Known Bugs
 
-* In the game when a user starts the game, the timer does not start for the first click. It will start on the second click.
-* When a user is playing the game on a smaller screen, the memory cards are not 
+* When a user is playing the game on a smaller screen, the memory cards are a little stretched and the cards are not shown entirely on the screen. The user has to scroll a little to the right. However, the user can still select the cards and see which one they clicked on.
+
 <br>
 
 ## Fixed Bugs
 
 * When opening the link for the game, the background for the body would not load and the user would have a white background. This is fixed now and the user will see a background with brown and yellow hues.
+* The timer would not start counting until the player clicked on their second card. This is now fixed and the timer will start when the user clicks on the first card.
 
 <br>
 

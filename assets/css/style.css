@@ -13,8 +13,16 @@ body {
 
 h1 {
     font-weight: 400;
+    color: #ffffff;
 }
 
+span {
+    color: #ffffff;
+}
+
+.timer {
+    color: #ffffff;
+}
 
 .container{
     display: flex;
@@ -88,26 +96,22 @@ h1 {
 
 /* Media queries */
 
-@media only screen and (min-device-width: 768px)
-  and (max-device-width: 1024px){
-     .memory-game{
+@media screen and (min-width: 768px)
+  and (max-width: 1024px){
+     .memory-game {
       width: 640px;
       min-height: 640px;
     }
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px) {
-    .memory-game{
+@media screen and (max-width: 812px) {
+    .memory-game {
       width: 550px;
       min-height: 550px;
     }
 }
 
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px) {
+@media only screen and (max-width: 568px) {
     .memory-game{
       width: 450px;
       min-height: 400px;

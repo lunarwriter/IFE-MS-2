@@ -38,7 +38,7 @@ function checkMatch() {
           Swal.fire({
             title: 'Congratulations!',
             text: 'You won the game!',
-          })
+          });
           clearInterval(timerCtrl); // it will stop the timer
           }
     }  else { 
@@ -73,7 +73,7 @@ function resertBoard() {
     cards.forEach(card => {
         let randomNum = Math.floor(Math.random() * 12);
         card.style.order = randomNum;
-    })
+    });
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCards));
