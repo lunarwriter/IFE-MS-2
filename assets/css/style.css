@@ -11,8 +11,16 @@ body {
     font-family: 'Playfair Display';
 }
 
-button {
-    font-family: inherit;
+h1 {
+    font-weight: 400;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .memory-game {
@@ -57,4 +65,57 @@ button {
 
 .front-face{
     transform: rotateY(180deg);
+}
+
+.score-panel {
+    text-align: left;
+    width: 545px;
+    margin-bottom: 10px;
+    color: #0d0d0e;
+}
+
+.score-panel .timer {
+    display: inline;
+    position: absolute;
+    left: 56%;
+}
+  
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+
+
+/* Media queries */
+
+@media only screen  and (min-device-width: 768px)
+  and (max-device-width: 1024px){
+     .memory-game{
+      width: 860px;
+      min-height: 880px;
+
+
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+    .memory-game{
+      width: 860px;
+      min-height: 880px;
+
+
+    }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+    .memory-game{
+      width: 860px;
+      min-height: 880px;
+
+
+    }
 }

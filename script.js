@@ -3,6 +3,8 @@ const cards = document.querySelectorAll('.memory-card');
 let flippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let matchCounter=0;
+let timerCtrl = null; // store the return value of setInterval
 
 
 function flipCards() {
@@ -29,8 +31,19 @@ function checkMatch() {
      // do the cards match?
      let match = firstCard.dataset.framework === secondCard.dataset.framework;
 
-    // ternary operator notation
-     match ? disableCards() : unflipCards();
+     if(match){
+        matchCounter+=1;
+       disableCards();
+         if(matchCounter==(cards.length/2)){
+          Swal.fire({
+            title: 'Congratulations!',
+            text: 'You won the game!',
+          })
+          clearInterval(timerCtrl); // it will stop the timer
+          }
+    }  else { 
+        unflipCards();
+    }
 }
 
 function disableCards() {
@@ -64,3 +77,65 @@ function resertBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCards));
+
+
+// Restart button
+
+function restartButton() {
+    location.reload();
+}
+var i = 0;
+function timer() {
+    i++;
+    if(i === 1) {
+      time();
+    }
+}
+
+var numr = 0;
+function countClick() {
+  numr ++;
+  console.log(numr);
+}
+
+// Timer
+
+function time() {
+ 
+    // var target = document.getElementsById("back");
+    // target.removeAttribute("onclick");
+    var minutesLabel = document.getElementById("minutes");
+    var secondsLabel = document.getElementById("seconds");
+    var totalSeconds = 0;
+    timerCtrl = setInterval(setTime, 1000);
+    
+    function setTime() {
+      ++totalSeconds;
+      secondsLabel.innerHTML = pad(totalSeconds % 60);
+      minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+    }
+    
+    function pad(val) {
+      var valString = val + "";
+      if (valString.length < 2) {
+        return "0" + valString;
+      } else {
+        return valString;
+      }
+    }
+  }
+  
+  var counterVal = 0;
+  
+function incrementClick() {
+    updateDisplay(++counterVal);
+}
+
+function resetCounter() {
+    counterVal = 0;
+    updateDisplay(counterVal);
+}
+  
+function updateDisplay(val) {
+    document.getElementById("counter-label").innerHTML = val;
+}
