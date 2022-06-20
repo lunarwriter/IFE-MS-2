@@ -1,10 +1,13 @@
 const cards = document.querySelectorAll('.memory-card');
 
 let flippedCard = false;
+let lockBoard = false;
 let firstCard, secondCard;
 
 
 function flipCards() {
+if (lockBoard) return;
+
     this.classList.add('flip');
 
     if (!flippedCard) {
@@ -35,9 +38,13 @@ function disableCards() {
 }
 
 function unflipCards() {
+    lockBoard = true;
+
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
+
+        lockBoard = false;
         }, 1500);
 }
 

@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Merlin's Beard!</title>
 </head>
 <body>
-    <section class="memory-game">
+    <div class="memory-game">
+        <div class="controls">
+            <button>Start</button>
+            <div class="stats">
+                <div class="moves">0 moves</div>
+                <div class="timer">time: 0 sec</div>
+            </div>
+        </div>
         <div class="memory-card" data-framework="alohomora">
             <img class="front-face" src="assets/images/alohomora.jpg" alt="alohomora"/>
             <img class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
@@ -57,7 +65,8 @@
             <img class="front-face" src="assets/images/stupify.jpg" alt="stupify"/>
             <img class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
         </div>
-    </section>
+        <div class="win">You won!</div>
+    </div>
     
     <script src="script.js"></script>
 </body>

@@ -8,6 +8,11 @@ body {
     height: 100vh;
     display: flex;
     background: url('/assets/images/pexels-pixabay-235985.jpg');
+    font-family: 'Playfair Display';
+}
+
+button {
+    font-family: inherit;
 }
 
 .memory-game {
