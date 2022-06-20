@@ -45,7 +45,6 @@ __Existing Features__
 
     * The user is immediately faced with a homescreen consisting of a title, the memory cards and the timer and move counter. The game starts once the player starts clicking on the cards.
 
-
 <br>
 
  __Possible Future Features__
@@ -177,7 +176,7 @@ The project was deployed to GitHub Pages using the following steps...
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://lunarwriter.github.io/IFE-MS-2 "live project") in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [live project](https://lunarwriter.github.io/IFE-MS-2 "live project") in the "GitHub Pages" section.
 
 
 ## Credits
@@ -185,38 +184,20 @@ The project was deployed to GitHub Pages using the following steps...
 __Code__
 
 * Code structure taken from [this link](https://www.youtube.com/watch?v=ZniVgo8U7ek  "YouTube") for the basic structure of the memory game.
-
 * Code structure for the timer and the move counter taken from [this link](https://stackoverflow.com/questions/69936780/how-to-stop-the-time-automatically-when-all-cards-are-flipped-in-memory-game-usi "StackOverflow")
-
-
-* [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/ "Bootstrap4.3") Bootstrap was used to make the site responsive using the Grid, Form, Navbar and Cards components, as well as making the button elements interactive.
-* [GitHub](https://github.com/etjossem/country-codes-html/blob/master/_country_codes.html "Bootstrap4.3")
-This page was used to create the dropdown menu for the country codes in the Contact Page form.
-This way, users can select their countries and insert their respective phone numbers.
+* [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/ "Bootstrap4.3") Bootstrap was used to make the site responsive.
 
 <br>
 
 __Content__
 
-* The text for the user reviews was taken from [Eatsleepwander](https://eatsleepwander.com/gym-review-example/ "user review text credits")
-* The text and class names for the Classes page was taken from [Fitness365](https://fitness365.nl/locaties/amsterdam/groepslessen/ "classes page credits") translated from Dutch
-* ReadMe structure and general content taken from [this sample](https://github.com/Code-Institute-Solutions/SampleREADME#user-experience-ux "readme1 credits") and [this sample](https://github.com/Code-Institute-Solutions/readme-template "readme2 credits")
+* The inspiration for the game was taken from [Wizarding World](https://www.wizardingworld.com/ "Wizarding World") which is created by the author of the Harry Potter books, J.K. Rowling.
+* ReadMe structure and general content taken from [this sample](https://github.com/Code-Institute-Solutions/SampleREADME#user-experience-ux "readme1 credits") and [this project](https://github.com/lunarwriter/UCD-MS-1/blob/master/README.md "readme2 credits")
 
 <br>
 
 __Media__
 
-* The hero image and the user review images were taken from [Pexels](https://pexels.com/ "pexels credits")
-* The images for the classes were taken from [Unsplash](https://unsplash.com/s/photos/ "unsplash credits")
-
-
-<br>
-
-
-
-* Backface image on the memory cards taken from [Pexels](https://www.pexels.com/photo/light-nature-bird-night-7978823/ "backface image credits")
-
+* The background image was taken from [Pexels](https://pexels.com/ "pexels credits")
+* The images for the back of the memory cards cards taken from [Pexels](https://www.pexels.com/photo/light-nature-bird-night-7978823/ "backface image credits")
 * Front face images on the memory cards taken from [Pinterest](https://nl.pinterest.com/pin/824792119237101317/ "front face image credits")
-
-* ReadMe structure and general content taken from [this sample](https://github.com/Code-Institute-Solutions/SampleREADME#user-experience-ux "readme1 credits") and [this sample](https://github.com/Code-Institute-Solutions/readme-template "readme2 credits")
-
