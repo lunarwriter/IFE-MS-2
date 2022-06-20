@@ -7,20 +7,12 @@
 body {
     height: 100vh;
     display: flex;
-    background: #9b683f;
+    background: url('/assets/images/pexels-pixabay-235985.jpg');
     font-family: 'Playfair Display';
 }
 
 h1 {
     font-weight: 400;
-}
-
-span {
-    color: #ffffff;
-}
-
-.timer {
-    color: #ffffff;
 }
 
 .container{
