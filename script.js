@@ -17,8 +17,17 @@ function flipCards() {
         secondCard = this;
 
         // do the cards match?
-        console.log(firstCard.dataset.framework);
-        console.log(secondCard.dataset.framework);
+        if (firstCard.dataset.framework === secondCard.dataset.framework) {
+            // matching!
+            firstCard.removeEventListener('click', flipCards);
+            secondCard.removeEventListener('click', flipCards);
+        } else {
+            // not a match
+            setTimeout(() => {
+            firstCard.classList.remove('flip');
+            secondCard.classList.remove('flip');
+            }, 1500);
+        }
     }
 }
 
