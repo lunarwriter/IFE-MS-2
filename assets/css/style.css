@@ -88,13 +88,11 @@ h1 {
 
 /* Media queries */
 
-@media only screen  and (min-device-width: 768px)
+@media only screen and (min-device-width: 768px)
   and (max-device-width: 1024px){
      .memory-game{
-      width: 860px;
-      min-height: 880px;
-
-
+      width: 640px;
+      min-height: 640px;
     }
 }
 
@@ -102,10 +100,8 @@ h1 {
   and (min-device-width: 375px)
   and (max-device-width: 812px) {
     .memory-game{
-      width: 860px;
-      min-height: 880px;
-
-
+      width: 550px;
+      min-height: 550px;
     }
 }
 
@@ -113,9 +109,7 @@ h1 {
   and (min-device-width: 320px)
   and (max-device-width: 568px) {
     .memory-game{
-      width: 860px;
-      min-height: 880px;
-
-
+      width: 450px;
+      min-height: 400px;
     }
 }

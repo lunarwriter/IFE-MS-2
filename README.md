@@ -93,8 +93,7 @@ __Existing Features__
 ## Known Bugs
 
 * In the game when a user starts the game, the timer does not start for the first click. It will start on the second click.
-* When a user finished the game, if the user clicks on the cards, the moves counter will keep counting until the user has clicked on the restart button.
-
+* When a user is playing the game on a smaller screen, the memory cards are not 
 <br>
 
 ## Fixed Bugs
