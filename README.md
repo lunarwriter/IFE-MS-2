@@ -35,44 +35,30 @@ Each time a player starts the game, the timer starts and their moves are counted
 
         * The main font used for this game is Playfair Display. This font has a distinctive and somewhat aged air which is very suited for the theme of the game.
 
-    * __Imagery__
-
-        * The imagery is essential. The large hero image on the homepage is designed to appear both eye-catching, motivating and purposeful.
-
 <br>
 
 ## Features
 
 __Existing Features__
 
-* __Navigation Bar__
+* __Home Screen__
 
-    * Featured on all three pages, the full responsive navigation bar includes links to the Home page, Classes, Contact Log In page and is identical in each page to allow for easy navigation.
-    * This section will allow the user to easily navigate from page to page.
-    * The navigation bar will turn into a toggler when the device is the size of a tablet or smaller.
-        This will make it easier for users to navigate through the page, as well as visually more attractive on smaller devices.
+    * The user is immediately faced with a homescreen consisting of a title, the memory cards and the timer and move counter. The game starts once the player starts clicking on the cards.
 
 
 <br>
 
  __Possible Future Features__
 
-* The website could be improved by adding a feature for a webshop for Dolly's Dojo products. 
-By adding this feature, users can get appropriate and safe fitness gear to attend the gym, the group classes or gym at home if they wish.
-
-* Another feature that could improve the website is adding online group classes.
-By adding this feature, users can attend the gym from their own home and stay as fit as ever. The users could attend a virtual class with instructors giving live classes.
-
-* A third feature for improvement is a login page for existing members to get access to their own account. 
+* The game can be improved by adding some more memory cards, making the game a little more difficult for the user by adding more moves and more time for playing.
+* A feature for checking if the user really wants to restart the game can be added as well. The timer can be paused temporarily until the user has submitted their answer. The game can either be restarted or continued where the user left off.
 
 <br>
 
 ## Wireframes
 
-* [Home Page](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/homepage-wireframe.PNG "homepage wireframe")
-* [Classes Page](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/classes-wireframe.PNG "classes wireframe")
-* [Contact Us Page](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/contact-page-wireframe.PNG "contact wireframe")
-* [Mobile Wireframe](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/mobile-wireframe.PNG "mobile wireframe")
+* [Home Page](https://github.com/lunarwriter/IFE-MS-2/blob/master/docs/wireframes/home-wireframe.png "homepage wireframe")
+* [Mobile Wireframe](https://github.com/lunarwriter/IFE-MS-2/blob/master/docs/wireframes/mobile-wireframe.png "mobile wireframe")
 
 <br>
 
@@ -82,11 +68,12 @@ By adding this feature, users can attend the gym from their own home and stay as
 
 * [HTML5](http://en.wikipedia.org/wiki/html5 "HTML5")
 * [CSS3](http://en.wikipedia.org/wiki/css3 "CSS3")
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
 
 <br>
 
 ### Frameworks, Libraries and Programs Used
-1. [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/ "Bootstrap4.3")
+1. [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started-introduction/ "Bootstrap4.3")
     * Bootstrap was used to assist with responsiveness and styling of the website.
 2. [Google Fonts:](http://fonts.google.com/ "GoogleFonts")
     * Google Fonts were used to import the "Playfair Display" font into the style.css file. The font is used for all text in the game.
@@ -105,17 +92,14 @@ By adding this feature, users can attend the gym from their own home and stay as
 
 ## Known Bugs
 
-* In the Contact form, when the user picks a country code for their mobile phone number, the country name does not reduce in size when viewed on mobile devices.
-The validation check mark will appear right over the name of the country, making it slightly less legible.
+* In the game when a user starts the game, the timer does not start for the first click. It will start on the second click.
+* When a user finished the game, if the user clicks on the cards, the moves counter will keep counting until the user has clicked on the restart button.
 
 <br>
 
 ## Fixed Bugs
 
-* When the Contact Us button in the Contact form is submitted, the user would be directed to the Contact page once again. 
-This is fixed and the user will now be directed to a page with a feedback message.
-* The input field for the Mobile phone number in the Contact form had two separate fields, one for selecting country dialling code and one for entering the digits. 
-This has been fixed and they are now merged into one field where the user can choose their country code and enter their phone digits.
+* When opening the link for the game, the background for the body would not load and the user would have a white background. This is fixed now and the user will see a background with brown and yellow hues.
 
 <br>
 

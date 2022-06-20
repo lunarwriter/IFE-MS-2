@@ -15,7 +15,7 @@
 <body>
     <div class = "container">
         <h1>Merlin's Beard Memory Game</h1>
-        <section class="score-panel">
+        <div class="score-panel">
             <span>Moves <span id = "counter-label">0</span></span>
       
             <div class="timer">
@@ -25,55 +25,55 @@
             <div class="restart">
                 <button onclick="restartButton()" class="fa fa-repeat"></button>
             </div>
-        </section>
+        </div>
         <div class="memory-game">
             <div class="memory-card" data-framework="alohomora">
                 <img class="front-face" src="assets/images/alohomora.jpg" alt="alohomora"/>
-                <img onclick = "incrementClick();" id="back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick();" id="back-alohomora" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="alohomora">
                 <img class="front-face" src="assets/images/alohomora.jpg" alt="alohomora"/>
-                <img onclick = "incrementClick(); timer();" id = "back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick(); timer();" id = "back-alohomora-2" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="ascendio">
                 <img class="front-face" src="assets/images/ascendio.jpg" alt="ascendio"/>
-                <img onclick = "incrementClick();" id="back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick();" id="back-ascendio" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="ascendio">
                 <img class="front-face" src="assets/images/ascendio.jpg" alt="ascendio"/>
-                <img onclick = "incrementClick(); timer();" id = "back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick(); timer();" id = "back-ascendio-2" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="expelliarmus">
                 <img class="front-face" src="assets/images/expelliarmus.jpg" alt="expelliarmus"/>
-                <img onclick = "incrementClick();" id="back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick();" id="back-expelliarmus" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="expelliarmus">
                 <img class="front-face" src="assets/images/expelliarmus.jpg" alt="expelliarmus"/>
-                <img onclick = "incrementClick(); timer();" id = "back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick(); timer();" id = "back-expelliarmus-2" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="locomotor">
                 <img class="front-face" src="assets/images/locomotor.jpg" alt="locomotor"/>
-                <img onclick = "incrementClick();" id="back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick();" id="back-locomotor" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="locomotor">
                 <img class="front-face" src="assets/images/locomotor.jpg" alt="locomotor"/>
-                <img onclick = "incrementClick(); timer();" id = "back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick(); timer();" id = "back-locomotor-2" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="silencio">
                 <img class="front-face" src="assets/images/silencio.jpg" alt="silencio"/>
-                <img onclick = "incrementClick();" id="back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick();" id="back-silencio" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="silencio">
                 <img class="front-face" src="assets/images/silencio.jpg" alt="silencio"/>
-                <img onclick = "incrementClick(); timer();" id = "back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick(); timer();" id = "back-silencio-2" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="stupify">
                 <img class="front-face" src="assets/images/stupify.jpg" alt="stupify"/>
-                <img onclick = "incrementClick();" id="back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick();" id="back-stupify" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
             <div class="memory-card" data-framework="stupify">
                 <img class="front-face" src="assets/images/stupify.jpg" alt="stupify"/>
-                <img onclick = "incrementClick(); timer();" id = "back" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
+                <img onclick = "incrementClick(); timer();" id = "back-stupify-2" class="back-face" src="assets/images/back-face3.jpg" alt="backface"/>
             </div>
         </div>
     </div>
