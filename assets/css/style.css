@@ -24,6 +24,7 @@ button {
     perspective: 1000px;
 }
 
+
 .memory-card {
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);
