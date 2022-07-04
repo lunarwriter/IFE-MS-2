@@ -117,6 +117,9 @@ __Testing User Stories from User Experience (UX) Section__
     1. As a Player, I want to be able to understand immediately what kind of game I will play.
 
         * When the player opens the link, they will immediately be brought to the home screen which is the game screen. Upon reading the title, they will notice they will play a memory card game.
+        * Once the player clicks on one of the cards, the card will flip and show an image. If the player clicks a second card and it matches, the cards will stay flipped with the image shown. If the second card does not match the first card, the second card will flip over and the user can click a different card to keep playing.
+
+    <br>
     
     2. As a Player, I want to know how many moves and how long I played before finishing the game.
 
