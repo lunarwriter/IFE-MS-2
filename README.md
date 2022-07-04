@@ -31,9 +31,11 @@ Each time a player starts the game, the timer starts and their moves are counted
 
         * The main colours used are hues of brown, orange and beige.
 
+    <br>
+
     * __Typography__
 
-        * The main font used for this game is Playfair Display. This font has a distinctive and somewhat aged air which is very suited for the theme of the game.
+        * The main font used for this game is Playfair Display. This font has a distinctive and rustic atmosphere which is very suited for the theme of the game.
 
 <br>
 
@@ -181,6 +183,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [live project](https://lunarwriter.github.io/IFE-MS-2 "live project") in the "GitHub Pages" section.
 
+<br>
 
 ## Credits
 
@@ -201,6 +204,5 @@ __Content__
 
 __Media__
 
-* The background image was taken from [Pexels](https://pexels.com/ "pexels credits")
 * The images for the back of the memory cards cards taken from [Pexels](https://www.pexels.com/photo/light-nature-bird-night-7978823/ "backface image credits")
 * Front face images on the memory cards taken from [Pinterest](https://nl.pinterest.com/pin/824792119237101317/ "front face image credits")
