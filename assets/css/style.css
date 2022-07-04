@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     display: flex;
-    background: url('/assets/images/pexels-pixabay-235985.jpg');
+    background: linear-gradient(to bottom, #ff9933 0%, #993333 100%);
     font-family: 'Playfair Display';
 }
 
